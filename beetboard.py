@@ -36,7 +36,6 @@ while True:
 	if event == ord('q'):
 		break
 	elif event == ord('1'):	
-		screen.addstr(3,0,"wat")
 		kick.play();
 	elif event == ord('2'):	
 		snare.play();
