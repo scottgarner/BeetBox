@@ -3,11 +3,8 @@
 import smbus
 #import RPi.GPIO as GPIO
 
-<<<<<<< HEAD
 bus = smbus.SMBus(1)
 
-=======
->>>>>>> 52780f171dfbddf4f79c68cf89c148b296981817
 # MPR121 Register Defines
 
 MHD_R = 0x2B
@@ -17,10 +14,7 @@ FDL_R = 0x2E
 MHD_F = 0x2F
 NHD_F = 0x30
 NCL_F = 0x31
-<<<<<<< HEAD
 FDL_F = 0x32
-=======
->>>>>>> 52780f171dfbddf4f79c68cf89c148b296981817
 ELE0_T = 0x41
 ELE0_R = 0x42
 ELE1_T = 0x43
@@ -71,16 +65,10 @@ def readData(address):
 	MSB = bus.read_byte_data(address, 0x00)
 	LSB = bus.read_byte_data(address, 0x01)
 
-<<<<<<< HEAD
 	touchData = (MSB << 8) | LSB
 	touchData = MSB;
 
 	return touchData;
-=======
-	touches = (MSB << 8) + LSB
-
-	print touches
->>>>>>> 52780f171dfbddf4f79c68cf89c148b296981817
 
 def setup(address):
 
@@ -149,8 +137,3 @@ def setup(address):
 	# Set ELE_CFG to 0x00 to return to standby mode
 
 	bus.write_byte_data(address, ELE_CFG, 0x0C)  # Enables all 12 Electrodes	
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 52780f171dfbddf4f79c68cf89c148b296981817
