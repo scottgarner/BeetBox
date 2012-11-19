@@ -18,14 +18,19 @@ mpr121.setup(0x5a)
 
 pygame.mixer.pre_init(44100, -16, 12, 512)
 pygame.init()
-pygame.mixer.music.set_volume(.25);
 
 kick = pygame.mixer.Sound('kick.wav')
+kick.set_volume(.65);
 snare = pygame.mixer.Sound('snare.wav')
+snare.set_volume(.65);
 openhh = pygame.mixer.Sound('open.wav')
+openhh.set_volume(.65);
 closedhh = pygame.mixer.Sound('closed.wav')
+closedhh.set_volume(.65);
 clap = pygame.mixer.Sound('clap.wav')
+clap.set_volume(.65);
 cymbal = pygame.mixer.Sound('cymbal.wav')
+cymbal.set_volume(.65);
 
 # Track touches
 
