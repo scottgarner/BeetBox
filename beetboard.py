@@ -10,14 +10,15 @@ GPIO.setup(7, GPIO.IN)
 
 # Use mpr121 class for everything else
 
-mpr121.TOU_THRESH = 0x22
-mpr121.REL_THRESH = 0x26
+mpr121.TOU_THRESH = 0x30
+mpr121.REL_THRESH = 0x33
 mpr121.setup(0x5a)
 
 # User pygame for sounds
 
 pygame.mixer.pre_init(44100, -16, 12, 512)
 pygame.init()
+pygame.mixer.music.set_volume(.25);
 
 kick = pygame.mixer.Sound('kick.wav')
 snare = pygame.mixer.Sound('snare.wav')
