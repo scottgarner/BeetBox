@@ -76,4 +76,3 @@ while True:
 				if (touches[i] == 1):
 					print( 'Pin ' + str(i) + ' was just released')
 				touches[i] = 0;
-
