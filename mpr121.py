@@ -1,8 +1,7 @@
 # Based on Arduino example by Jim Lindblom
+# http://bildr.org/2011/05/mpr121_arduino/
 
 import smbus
-#import RPi.GPIO as GPIO
-
 bus = smbus.SMBus(1)
 
 # MPR121 Register Defines
@@ -65,7 +64,7 @@ def readData(address):
 	MSB = bus.read_byte_data(address, 0x00)
 	LSB = bus.read_byte_data(address, 0x01)
 
-	touchData = (MSB << 8) | LSB
+	#touchData = (MSB << 8) | LSB
 	touchData = MSB;
 
 	return touchData;
