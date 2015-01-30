@@ -20,4 +20,4 @@ The [MaKey MaKey](http://amzn.to/1ycuhdu) works on a different principle (resist
 
 ###Arduino
 
-For the initial prototype of the BeetBox, I used an Arduino connected to an MPR-121 board ([with code and instructions from Jim Lindblom](http://bildr.org/2011/05/mpr121_arduino/)) and plugged it into a laptop running a simple Processing sketch to trigger sounds. Another option would be to skip the sensor board alltogether and try the Arduino [CapSense](http://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense) library.
+For the initial prototype of the BeetBox, I used an [Arduino Uno](http://amzn.to/1ycuX2z) connected to an MPR-121 board ([with code and instructions from Jim Lindblom](http://bildr.org/2011/05/mpr121_arduino/)) and plugged it into a laptop running a simple Processing sketch to trigger sounds. Another option would be to skip the sensor board alltogether and try the Arduino [CapSense](http://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense) library.
