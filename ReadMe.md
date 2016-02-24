@@ -10,6 +10,8 @@ I used the stock [distribution of Raspian](http://www.raspberrypi.org/downloads/
 
 Once your Pi is communicating with the board properly, you can clone this repository and run the script with something like `sudo python beetbox.py`
 
+Here is a list of links to purchase [recommended tools and parts](http://lists.j38.net/beetbox).
+
 ##Alternatives
 
 Dealing with the Pi if you're not experienced with Linux can be a big task in itself. If you'd like to experiment with touch-based projects, but aren't quite ready for that level of complexity, there are a few easier ways to get started.
