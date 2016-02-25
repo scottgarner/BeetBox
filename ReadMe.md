@@ -4,7 +4,7 @@ This is probably not especially useful to anyone, but may be interesting to thos
 
 ##Building Your Own
 
-I'm very open to people recreating the BeetBox as a learning exercise. The code and schematic in this repository are more or less exactly what I used in the project, though you may have to tweak things on your end. The main compontents you need are a [Raspberry Pi](http://amzn.to/1zk5YwV) and an [MPR-121](https://www.sparkfun.com/products/9695) capacative touch sensor board from SparkFun. I've also included the schematic for a simple amplifier circuit, but it is totally optional and you can easily use ready-made devices like computer speakers for amplification.
+I'm very open to people recreating the BeetBox as a learning exercise. The code and schematic in this repository are more or less exactly what I used in the project, though you may have to tweak things on your end. The main compontents you need are a [Raspberry Pi](http://amzn.to/1zk5YwV) and an [MPR-121](http://amzn.to/1S3yu0V) capacative touch sensor board from SparkFun. I've also included the schematic for a simple amplifier circuit, but it is totally optional and you can easily use ready-made devices like computer speakers for amplification.
 
 I used the stock [distribution of Raspian](http://www.raspberrypi.org/downloads/) from the Raspberry Pi foundation, though that was some time ago and I'm sure things have changed. The most important thing to make sure of in working with the MPR-121 is that I2C/SMBus connectivity is working properly. Adafruit has a helpful tutorial on [Configuring the Pi for I2C](https://learn.adafruit.com/using-the-bmp085-with-raspberry-pi/configuring-the-pi-for-i2c).
 
