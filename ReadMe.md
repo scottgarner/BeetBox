@@ -10,7 +10,7 @@ I used the stock [distribution of Raspian](http://www.raspberrypi.org/downloads/
 
 Once your Pi is communicating with the board properly, you can clone this repository and run the script with something like `sudo python beetbox.py`
 
-Here is a list of links to purchase some recommended tools and parts [on the project page](http://www.scottmadethis.net/interactive/beetbox/).
+A list of links to purchase some recommended tools and parts is available [on the project page](http://www.scottmadethis.net/interactive/beetbox/).
 
 ## Alternatives
 
